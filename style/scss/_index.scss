@@ -1,0 +1,41 @@
+#navigation {
+	background:$bg-color;
+	border-bottom:1px solid #CCC;
+	position:fixed;
+	width:100%;
+	z-index:10;
+	.nav {
+		height:50px;
+		margin-left:auto;
+		margin-right:auto;
+		padding:0 50px;
+	}
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+#nav-bar {
+	display:block;
+	font-size:1.5em;
+	height:auto !important;
+	overflow:visible !important;
+	text-transform:uppercase;
+}
+.nav-item {
+	display:inline;
+	margin-top:18px;
+	padding:0 10px;
+	&:last-child {
+		padding-right:0;
+	}
+}
+.section {
+	height:500px;
+	border-bottom:1px dashed #333;
+}

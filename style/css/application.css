@@ -1,0 +1,64 @@
+body {
+  background: #FFF;
+  color: #b3b3b6;
+  font-family: Calibri, sans-serif;
+  font-size: 10px;
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-weight: normal; }
+
+ul {
+  display: block;
+  height: 50px;
+  margin: 0;
+  list-style: none; }
+
+a {
+  color: #999; }
+  a:link, a:visited, a:hover {
+    text-decoration: none; }
+  a:hover {
+    color: #000; }
+
+#navigation {
+  background: #FFF;
+  border-bottom: 1px solid #CCC;
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+  #navigation .nav {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 50px; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+#nav-bar {
+  display: block;
+  font-size: 1.5em;
+  height: auto !important;
+  overflow: visible !important;
+  text-transform: uppercase; }
+
+.nav-item {
+  display: inline;
+  margin-top: 18px;
+  padding: 0 10px; }
+  .nav-item:last-child {
+    padding-right: 0; }
+
+.section {
+  height: 500px;
+  border-bottom: 1px dashed #333; }
+
+/*# sourceMappingURL=application.css.map */

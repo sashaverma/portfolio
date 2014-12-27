@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Sasha Verma</title>
+<link rel="stylesheet" type="text/css" href="style/css/application.css">
+</head>
+<body>
+	<div id="navigation">
+		<div class="nav">
+			<div id="home" class="left">
+				<h1 data-bind="text: title"></h1>
+			</div>
+			<div id="nav-bar" class="right">
+				<ul data-bind="foreach: menuItems">
+					<li class="nav-item left">
+						<a data-bind="text: name, attr: { href: url, title: name }"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="about" class="section">
+	</div>
+	<div id="portfolio" class="section">
+	</div>
+	<div id="resume" class="section">
+	</div>
+	<div id="contact" class="section">
+	</div>
+	<div id="footer" class="section">
+	</div>
+</body>
+<footer>
+	<script src="scripts/3rd/jquery-2.1.3.min.js"></script>
+	<script src="scripts/3rd/knockout-3.2.0.js"></script>
+	<script src="scripts/compiled/IndexViewModel.js"></script>
+</footer>
+
+</html>
