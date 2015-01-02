@@ -2,6 +2,7 @@
 	background:$bg-color;
 	border-bottom:1px solid #CCC;
 	position:fixed;
+	top:0;
 	width:100%;
 	z-index:10;
 	.nav {
@@ -36,6 +37,28 @@
 	}
 }
 .section {
-	height:500px;
 	border-bottom:1px dashed #333;
+	height:100%;
+	min-height:700px;
+
+	.section-content {
+		background-color:rgba(150,150,150,0.4);
+		margin:0 auto;
+		padding:80px 10px;
+		min-height:200px;
+		text-align:center;
+		width:700px;
+	}
+
+	&#about {
+		background:url("../../imgs/about.JPG");
+		background-size:cover;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		color:#FFF;
+
+		.section-content {
+			margin-top:50px;
+		}
+	}
 }
